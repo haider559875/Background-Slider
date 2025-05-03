@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" >
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <title>Background Slider</title>
+    </head>
+    <body>
+
+    <div class="slider-container">
+
+      <div class="slide active" style="background-image: url('https://www.premiercarriage.co.uk/uploads/2024/10/25/classic-mustang-hire.jpg');"></div>
+      <div class="slide"style="background-image: url('https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/07/1969-Ford-Mustang-Boss-429-e1595587132922.jpg');"></div>
+      <div class="slide"style="background-image: url('https://imageio.forbes.com/specials-images/imageserve/5fd65ad9e23819e9f4133483/Front-three-quarter-view-of-a-silver-Ferrari-250-Lusso-driving-on-a-British-country/960x0.jpg?format=jpg&width=960');"></div>
+      <div class="slide"style="background-image: url('https://www.motortrend.com/uploads/2023/09/002-2024-BMW-i5-front-three-quarters-in-action.jpg');"></div>
+      <div class="slide"style="background-image: url('https://www.motortrend.com/files/673f7a31f365ef0008da0ceb/1997-toyota-supra-01.jpg?w=768&width=768&q=75&format=webp');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1624804269473-828dcc30a210?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9sbHMlMjByb3ljZXxlbnwwfHwwfHx8MA%3D%3D');"></div>
+
+      <button class="arrow left-arrow" id="left">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+
+      <button class="arrow right-arrow" id="right">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
